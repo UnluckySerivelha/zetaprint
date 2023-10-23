@@ -1,0 +1,34 @@
+* About to connect() to zetaprint.amocrm.ru port 443 (#3)
+*   Trying 88.212.250.100...
+* Connected to zetaprint.amocrm.ru (88.212.250.100) port 443 (#3)
+* skipping SSL peer certificate verification
+* SSL connection using TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256
+* Server certificate:
+* 	subject: CN=*.amocrm.ru
+* 	start date: Jul 02 18:40:44 2023 GMT
+* 	expire date: Aug 02 18:40:44 2024 GMT
+* 	common name: *.amocrm.ru
+* 	issuer: CN=Go Daddy Secure Certificate Authority - G2,OU=http://certs.godaddy.com/repository/,O="GoDaddy.com, Inc.",L=Scottsdale,ST=Arizona,C=US
+> POST /api/v4/leads/unsorted/forms HTTP/1.1
+User-Agent: amoCRM-API-client/1.0
+Host: zetaprint.amocrm.ru
+Accept: */*
+Cookie: user_lang=ru; session_id=05cimds30knvjkdk6tg1aspcp6
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6Ijk4ZjhmZWM3ZWY0YmJlNjI4YjEyNzE3ODU3MmY5ZDcwMWNhYTExZjY2MmIxMWYwMDQ3YzYyMGUyNzBjZTFhMGE1YThmNzg1MGQ3MGExMGVmIn0.eyJhdWQiOiJjOWM4MzcwOS1lNzVlLTQ5OWUtYmMwMS0yMmVmYzMxOGZhYmYiLCJqdGkiOiI5OGY4ZmVjN2VmNGJiZTYyOGIxMjcxNzg1NzJmOWQ3MDFjYWExMWY2NjJiMTFmMDA0N2M2MjBlMjcwY2UxYTBhNWE4Zjc4NTBkNzBhMTBlZiIsImlhdCI6MTY4OTI3ODc4MywibmJmIjoxNjg5Mjc4NzgzLCJleHAiOjE2ODkzNjUxODMsInN1YiI6IjU4OTA1NDYiLCJncmFudF90eXBlIjoiIiwiYWNjb3VudF9pZCI6Mjg3OTkzNTAsImJhc2VfZG9tYWluIjoiYW1vY3JtLnJ1IiwidmVyc2lvbiI6InYxIiwic2NvcGVzIjpbInB1c2hfbm90aWZpY2F0aW9ucyIsImNybSIsIm5vdGlmaWNhdGlvbnMiXX0.pW3VLOi8KL3kkeucPNKiwtFzeOxSY2RcxzKyAkpC78BdsKe2tEaFmGFPtsjOLFdX2SzXOvAcKMhYfRwkHfaC5OKGC_oDBtTlKU2UrbrdJ4wHQIoouGRLDemq8dUOkaa6P4RQoQLcsWn_0yIVCEzpx8ZgCOS6-hI-6uQaP5o7r0h9ZpAMtf91ZIRgeU3hOw3fpIyVEyLTENcxoHoz0WTWj9smJSmhGWe4XKmAf7oypTzIa1s_sRzW4SCD283B0vyZ6KBPWsXioeCihJf2rysWFk4JJK3iwTQ6a9On55p-LSxV8dDkgRJa2jCpp3lpJ2Op5Jy24RYw_cJxyCuDZvdoxg
+Content-Length: 994
+
+* upload completely sent off: 994 out of 994 bytes
+< HTTP/1.1 401 Unauthorized
+< Server: nginx
+< Date: Fri, 14 Jul 2023 13:52:34 GMT
+< Content-Type: application/problem+json
+< Transfer-Encoding: chunked
+< Connection: keep-alive
+< Expires: Thu, 19 Nov 1981 08:52:00 GMT
+< Cache-Control: no-store, no-cache, must-revalidate
+< Pragma: no-cache
+< X-Request-Id: 824ae4643cff4e0a0a829bee9b97d5c5
+< X-Runtime-Generated: 0,3077
+< 
+* Connection #3 to host zetaprint.amocrm.ru left intact
